@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+body {
+	font-family: 'Muli', sans-serif;
+	background-color: black;
+	min-height: 100vh;
+}
+.navbar {
+	background-color: black;
+}
+a.navbar-item {
+	color: white;
+}
+a.navbar-item:hover {
+	background-color: transparent;
+}
+.avatar {
+	width: 200px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+h1, h2, p {
+	color: white !important;
+}
+.box {
+	background-color: black;
+	color: white;
+}
+.fas, .fab, .far {
+	font-size: 100px;
+	color: white;
+}
+hr {
+	width: 300px;
+	border-color: white;
+	color: white;
+	margin: auto;
+}
